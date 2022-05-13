@@ -1,0 +1,248 @@
+*{margin: 0; padding: 0;}
+body{font-family: arial; sans-serif}
+
+
+/*NAVBAR*/
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 1px 2px 10px 
+}
+
+#main-nav{
+    background-color: #f48fb1;;
+    height: 60px;
+    text-align: right;
+}
+.logo-img{
+    width: 50px;
+    margin-top: 5px
+}
+.logo-holder{
+    float: left;
+    padding-left: 20px;
+    text-align: left;
+}
+.main-menu{
+    list-style: none;
+}
+
+.main-menu-item{
+     display: inline-block;
+    font-size: 9px;
+    margin-right: 2px;
+    padding-top: 3px;
+}
+.main-menu-item a {
+   
+    padding: 4px;
+    text-decoration: none;
+    background-color: #f48fb1;
+    margin: 10px ;
+    border-radius: 2px;
+    color: white;
+    display: inline-block;
+    font-family: arial;
+    margin-top: 16px;
+    font-size: 11px;
+    
+        
+}
+
+
+
+.main-menu-item a:hover{
+    background-color: deeppink;
+}
+
+
+/*ГЛАВНАЯ*/
+
+.cover{
+    background: url(../images/IMG_1875.JPG);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px black;
+    padding: 100px 20%;
+}
+.look{
+    font-size: 3rem
+}
+
+
+
+.cover-dimmer{
+    background: rgba(0, 0, 0, 0,);
+    padding: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+h1{
+    font-size: 8rem;
+    margin-top: -10px;
+    margin-bottom: .25rem;
+}
+
+
+
+/*О нас*/
+.about{
+    background: url(../images/IMG_1878.JPG);
+    background-position: center;
+    background-size: cover;
+    color: ghostwhite;
+    padding: 20px 10%;
+    
+}
+
+h2{
+    font-size: 3.5rem;
+    margin-top: -10px;
+    margin-bottom: 0.25rem;
+     text-shadow: 4px 4px 4px black;
+    text-align: center
+    
+}
+.subheader{
+    background: rgba(0,0,0,.3);
+    padding: 30px;
+    text-align:left;
+    margin-bottom: 50px
+}
+
+
+
+
+/*Услуги*/
+
+h3{
+ text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 3px 3px 3px black;
+}
+h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    border-bottom: 10px solid deeppink
+}
+
+.uslugi{
+    background: url(../images/IMG_1877.jpg);
+    color: white;
+}
+
+
+.container-a{
+    width: 300px;
+    display: inline-block;
+    padding: 30px;
+    vertical-align: top
+}
+
+h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-family:
+}
+
+
+
+/*Наш ассортимент*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Контакты*/
+
+
+
+
+
+footer{
+    background-color: deeppink;
+    padding: 3rem 0;
+     margin: auto;
+    height: auto;
+
+    }
+
+.footer-table{
+    width: 80%;
+    margin: auto;
+    border: 0;
+   
+    
+    
+    
+}
+
+td{
+    color: #fff;
+    border: 0;
+    width: 33%;
+    line-height: 1.6rem;
+    vertical-align: top;
+}
+
+.logo-bottom{
+    width: 110px
+}
+
+
+
+.bigger{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: sans-serif
+}
+
+
+td a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+

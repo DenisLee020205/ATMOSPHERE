@@ -1,0 +1,165 @@
+*{margin: 0; padding: 0;}
+body{font-family: arial; sans-serif}
+
+/*NAVBAR*/
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    box-shadow: 1px 2px 10px ;
+    margin-top: -60px;
+}
+#main-nav{
+    background-color: #f48fb1;;
+    height: 60px;
+    text-align: right;
+}
+.logo-img{
+    width: 50px;
+    margin-top: 5px
+}
+.logo-holder{
+    float: left;
+    padding-left: 20px;
+    text-align: left;
+}
+.main-menu{
+    list-style: none;
+}
+
+.main-menu-item{
+     display: inline-block;
+    font-size: 9px;
+    margin-right: 2px;
+    padding-top: 3px;
+}
+.main-menu-item a {
+   
+    padding: 4px;
+    text-decoration: none;
+    background-color: #f48fb1;
+    margin: 10px ;
+    border-radius: 2px;
+    color: white;
+    display: inline-block;
+    font-family: arial;
+    margin-top: 7px;
+    font-size: 20px;
+    margin-right: 40px;
+    font-weight: 1000;
+    
+        
+}
+
+
+
+.main-menu-item a:hover{
+    background-color: deeppink;
+}
+
+
+/*Наш ассортимент*/
+.assortiment{
+   
+    background: url(../images/IMG_1879.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 60px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-decoration-line: underline;
+    text-decoration-color: deeppink
+}
+.container{
+    width: 200px;
+    display: inline-block;
+    padding: 5px;
+    vertical-align: top;
+    margin: 5px;
+    color: white;
+    border: solid 9px  #f48fb1;
+    background-color:  #f48fb1;
+    margin-bottom: 40px;
+        
+}
+
+.img-1{
+    width: 100%;
+}
+
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px black;
+    color: white
+}
+/*Контакты*/
+
+footer{
+    background-color: deeppink;
+    padding: 3rem 0;
+     margin: auto;
+    height: auto;
+    }
+
+.footer-table{
+    width: 80%;
+    margin: auto;
+    border: 0;
+   
+    
+    
+    
+}
+
+td{
+    color: #fff;
+    border: 0;
+    width: 33%;
+    line-height: 1.6rem;
+    vertical-align: top;
+}
+
+.logo-bottom{
+    width: 110px
+}
+
+
+
+.bigger{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: sans-serif
+}
+
+
+td a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
